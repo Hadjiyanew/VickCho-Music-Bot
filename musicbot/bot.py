@@ -2940,3 +2940,8 @@ class MusicBot(discord.Client):
             if vc.guild == guild:
                 return vc
         return None
+
+
+
+
+client.run(str(os.environ.get('BOT_TOKEN')))
